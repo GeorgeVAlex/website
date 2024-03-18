@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+<title>George's website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-repeat: no-repeat,;
+  background-color: #cccccc;	
+	background-size: 25%;
+}
+body {
+	
+	font-family: "Lato", sans-serif};
+.mySlides {display: none};
+
+</style>
+	
+<script language="JavaScript"> 
+var i = 0; var path = new Array(); 
+path[0] = "images/chineseevergreen2.jpg"; 
+path[1] = " images/peacelily2.jpg"; 
+path[2] = " images/dracaenaandothers2.jpg"; 
+path[3] = " images/spiderplant2.jpg"; 
+
+function swapImage() 
+{ 
+document.slide.src = path[i]; 
+if(i < path.length - 1) i++; 
+else i = 0; 
+setTimeout("swapImage()",3000); 
+} 
+window.onload=swapImage; 
+</script> 
+
+</head>
+	
+<body style="background-image: url(images/greenleafs.jpg)" >
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#Useful_info" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Useful info</a>
+    <a href="#Nature" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Nature</a>
+	<a href="#About_us" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+	
+	
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#Useful_info" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Useful info</a>
+  <a href="#Nature" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Nature</a>
+  <a href="#About_us" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About us</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+
+
+</div>
+	<!-- Page content (Home)-->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Home">
+<h1>Bring the outside in</h1>
+	<p style="font-size:160%;">A common misconception is that people may think that they only get the benefits of nature only from going outside. However even though that is highly beneficial, you can also bring the benefits of nature inside your home for a small price too depending on what you may find! Keep scrolling for more information.</p>
+	
+<img height="70%" name="slide" src="images/man1.jpg" width="45%" />
+	
+<p><iframe width="700" height="600" src="https://www.youtube.com/embed/fVXUDJCH8yk" title="Beginner&#39;s guide to growing at home - Manchester Urban Diggers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</p>
+	<p style="font-size:120%;">Watering plants in a pot that fits them well should be done when the top half of the soil feels dry to the touch. Depending on the region of origin, different plants have varying watering needs. Overwatering is the most common cause of house plant death, therefore it's better to water your plant moderately. When is it time to repot your indoor plant? The secret to knowing whether to repot your plant is to look at its roots. If they are circling inside the current container, it's time to repot it. Repotting your plant is best done in the spring, but it shouldn't harm it if you do it at any other time season. Make sure to remove any withered leaves and/or faded flowers, so that the plant is healthy and looking its best. Don’t forget that your plant needs plenty of sunlight around the whole plant so be sure to rotate the plant, so it gets sunlight evenly.</p>
+
+	
+</div>
+
+  <!-- The Useful info Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Useful_info"><span class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px"></span>
+    <h2 class="w3-wide">Useful info</h2>
+    <p class="w3-justify">Did you know that indoor gardening and houseplants can also provide benefits to improve your health & wellbeing as well? That means you can stay warm indoors and still reap the physical and mental benefits – win! </p>
+	  <p class="w3-justify">A study published in the Journal of Physiological Anthropology found that plants in your home or office can make you feel more comfortable, soothed, and natural.
+
+In the study, participants were given two different tasks: repotting a houseplant or completing a short computer-based task. After each task, researchers measured the biological factors associated with stress, including heart rate and blood pressure.
+
+They found that the indoor gardening task lowered the stress response in participants. The computer task, on the other hand, caused a spike in heart rate and blood pressure, even though the study participants were young men well-accustomed to computerized work.
+
+Researchers concluded that working with plants could reduce both physiological and psychological stress. </p>
+    
+  </div>
+
+  <!-- The Nature Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Nature">
+  <h1> Nature</h1>
+	  <img src="images/zzplant.jpg" alt="image of zz plant" width="600" height="400" >
+	  <h4><p> Spending time in green space or bringing nature into your everyday life can benefit both your mental and physical wellbeing. For example doing activities such as growing your own plants and bringing them indoors can:
+		  improve your mood, reduce feelings of stress or anger, feel more relaxed, and many more. Since the Covid-19 Pandemic, our time indoors has drastically increased to around 95% for the average person, therefore now that we're indoors much more and missing out on natural element, it takes a concious effort to keep nature in our lives. And the ideal solution is through adding nature in our homes or workplace.</p></h4>
+	  <img src="images/snakeplant.jpg" alt="image of zz plant" width="500" height="500" >
+	  <h4><p> Not only is the Snake Plant super easy going, it also helps improve the quality of sleep by producing oxygen at night and removing carbon dioxide. This can result in a more restful and refreshing sleep, so it's recommended to place your Snake Plant in the bedroom!</p></h4>
+	  <img src="images/cactiplant.jpg" alt="image of zz plant" width="500" height="500" >
+	  <h4><p> Not only can fresh air produced by a cactus make us more productive, but it can also help us with treating the constantly recurring headaches. By having cacti plants inside the house, you could reduce the amount of air impurities by over 50% by lowering the amount of dust and bacterial build-up.</p></h4>
+  
+<h1>Local garden centres</h1>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_G8uCz5YyXqzLXgu1kwzb61ZZwXmuRM&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+	  <h4><p>These are some local garden centres from where you can buy plants and ask for any other additional help regarding bringing the outside in, and they have good reviews as well.</p><h4>
+
+  </div>
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="About_us">
+<h1>About us</h1>
+<p>Our goal is to encourage environmentally friendly lifestyles. We do this by designing campaigns that make environmental actions desirable. We disrupt the status quo to raise awareness, nudge behaviours and shape systems. To learn more about us visit the website below.</p>
+	<a href="https://www.hubbub.org.uk/what-we-do">Hubbub.org</a>
+	
+</div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+	  <h4>For any questions or more information please contact us through filling this form.</h4>
+	
+
+	
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="" required><br>
+	
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="" required><br>
+	
+  <label for="email">Email address:</label><br>
+  <input type="text" id="email" name="email" value="" required><br>
+	
+  <label for ="feedback">Feedback:</label><br>
+   <textarea name="message" rows="10" cols="30" required></textarea>
+  <br><br>
+		 
+  <input type="submit" value="Submit">
+</form> 
+
+
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-black w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
